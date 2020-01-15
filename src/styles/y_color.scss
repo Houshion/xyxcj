@@ -1,0 +1,47 @@
+/** 项目主色调 **/
+$baseColor: #1ABC9C;
+$secondColor: #409EFF;
+$warningColor:#F56C6C;
+
+/**常用颜色*/
+$col3:#333;
+$col6:#666;
+$col9:#999;
+$white:#fff;
+
+.color1{
+  color: $baseColor;
+}
+
+.color2{
+  color: $secondColor;
+}
+.color3{
+  color: $warningColor;
+}
+.bgc1{
+  background-color: $baseColor;
+}
+.bgc2{
+  background-color: $secondColor;
+}
+.bgc3{
+  background-color: $warningColor;
+}
+
+.col3{
+  color: $col3;
+}
+
+.col6{
+  color: $col6;
+}
+.col9{
+  color: $col9;
+}
+.colw{
+  color: $white;
+}
+.bw{
+  background-color:$white ;
+}

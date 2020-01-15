@@ -1,0 +1,75 @@
+/*
+Error: Undefined variable: "$sideBarWidth".
+        on line 6 of E:\root\php\dghxzsytj\admin_web\src\styles\sidebar.scss
+
+1: #app {
+2: 
+3:     .main-container {
+4:         min-height: calc(100% - 100px);
+5:         transition: margin-left .28s;
+6:         margin-left: $sideBarWidth;
+7:         position: absolute;
+8:         width: calc(100% - 210px);
+9:         top: 50px;
+10:     }
+11: 
+
+Backtrace:
+E:\root\php\dghxzsytj\admin_web\src\styles\sidebar.scss:6
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/variable.rb:49:in `_perform'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/script/tree/node.rb:50:in `perform'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:402:in `visit_prop'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block (2 levels) in visit_rule'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `map'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:444:in `block in visit_rule'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:442:in `visit_rule'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `block in with_base'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:135:in `with_frame'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/stack.rb:79:in `with_base'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:162:in `visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:161:in `visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/visitors/perform.rb:10:in `visit'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/tree/root_node.rb:20:in `render'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/engine.rb:290:in `render'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:400:in `run'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:52:in `parse'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/lib/sass/exec/base.rb:19:in `parse!'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/lib/ruby/gems/2.4.0/gems/sass-3.5.3/bin/sass:13:in `<top (required)>'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/bin/sass:23:in `load'
+D:/Program Files/Dreamweaver.CC.2019.19.0.0.11193.X64/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$sideBarWidth\".\A         on line 6 of E:\root\php\dghxzsytj\admin_web\src\styles\sidebar.scss\A \A 1: #app {\A 2: \A 3:     .main-container {\A 4:         min-height: calc(100% - 100px);\A 5:         transition: margin-left .28s;\A 6:         margin-left: $sideBarWidth;\A 7:         position: absolute;\A 8:         width: calc(100% - 210px);\A 9:         top: 50px;\A 10:     }\A 11: "; }
